@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Interfaces_ProyectoFinal
 {
@@ -37,28 +38,27 @@ namespace Interfaces_ProyectoFinal
         //Metodo para validar los datos del Log In
         private void Boton_Ingresar_Click(object sender, EventArgs e)
         {
-            if ((TextBox_Usuario.Text == "") || (TextBox_Contraseña.Text == ""))  //Si las casillas del usuario o contraseña estan vacias
+            MySqlConnection conexion = new MySqlConnection("server=127.0.0.1; database=ProyectoFinal;Uid=root;pwd=PabloG2017");
+            conexion.Open();
+            MySqlCommand codigo = new MySqlCommand();
+            MySqlConnection conectandonos = new MySqlConnection();
+            codigo.Connection = conexion;
+            codigo.CommandText = ("select *from Usuarios where user ='" + TextBox_Usuario.Text + "'and password = '" + TextBox_Contraseña.Text + "' ");
+            MySqlDataReader leer = codigo.ExecuteReader();
+            if (leer.Read())
             {
-                MessageBox.Show("FALTAN CAMPOS POR LLENAR");                      //Imprime este mensaje
+                MessageBox.Show("Bienvenido");
+                Opciones abriropciones = new Opciones();    
+                abriropciones.Show();                       
+                this.Hide();
             }
-            
+            else
+            {
+                MessageBox.Show("Usuario o Contraseña Incorrectos");
+                TextBox_Contraseña.Text = "";
+            }
 
-            if ((TextBox_Usuario.Text != "") && (TextBox_Contraseña.Text != ""))  //Si las casillas de contraseña y usuario estan en blanco
-            {
-                if ((TextBox_Usuario.Text == "Administrador") && (TextBox_Contraseña.Text == "Password123"))   //Si los campos de usuario y contraseña contienen estos datos
-                {
-                    MessageBox.Show("BIENVENIDO");              //Imprima este mensaje
-                    Opciones abriropciones = new Opciones();    //Crea un constructor de la clase Opciones
-                    abriropciones.Show();                       //Mostrar el form llamado
-                    this.Hide();                                //Deje de mostrar el anterior Form
-                }
-                else  //Sino
-                {
-                    MessageBox.Show("DATOS INCORRECTOS, INTENTELO DE NUEVO");   //Imprimir este mensaje
-                    TextBox_Usuario.Text = "";                                  //El TextBox del Usuario se vaciara
-                    TextBox_Contraseña.Text = "";                               //El TextBox de la contraseña se vaciara
-                }
-            }
+            
 
         }
 

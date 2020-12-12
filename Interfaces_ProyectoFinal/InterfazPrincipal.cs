@@ -17,10 +17,11 @@ namespace Interfaces_ProyectoFinal
             InitializeComponent();
         }
 
-
-
-
-
-
+        private void Boton_Regresar_Click(object sender, EventArgs e)
+        {
+            Opciones opcion = new Opciones();
+            opcion.Show();
+            this.Hide();
+        }
     }
 }

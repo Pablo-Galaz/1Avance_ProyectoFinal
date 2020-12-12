@@ -63,6 +63,26 @@ namespace Interfaces_ProyectoFinal.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap c99a4a05ba745e36874c55edfcb758dc {
+            get {
+                object obj = ResourceManager.GetObject("c99a4a05ba745e36874c55edfcb758dc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c99a4a05ba745e36874c55edfcb758dc1 {
+            get {
+                object obj = ResourceManager.GetObject("c99a4a05ba745e36874c55edfcb758dc1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap depositphotos_108268286_stock_photo_abstract_dark_metallic_background {
             get {
                 object obj = ResourceManager.GetObject("depositphotos_108268286-stock-photo-abstract-dark-metallic-background", resourceCulture);
@@ -76,6 +96,16 @@ namespace Interfaces_ProyectoFinal.Properties {
         internal static System.Drawing.Bitmap diseno_fondo_tecnologico_23_2148503801 {
             get {
                 object obj = ResourceManager.GetObject("diseno-fondo-tecnologico_23-2148503801", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fondo_diseno_tecnologico_23_2148497493 {
+            get {
+                object obj = ResourceManager.GetObject("fondo-diseno-tecnologico_23-2148497493", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -12,7 +12,9 @@ namespace Interfaces_ProyectoFinal
 
         private void btn_ReporteVentas_Click(object sender, EventArgs e)
         {
-
+            InterfazReporteVentas reporteventas = new InterfazReporteVentas();
+            reporteventas.Show();
+            this.Hide();
         }
 
         private void btn_InterfazPrincipal_Click(object sender, EventArgs e)
@@ -24,17 +26,21 @@ namespace Interfaces_ProyectoFinal
 
         private void btn_AgregarArticulos_Click(object sender, EventArgs e)
         {
-
+            InterfazAgregarArticulos articulos = new InterfazAgregarArticulos();
+            articulos.Show();
+            this.Hide();
         }
 
         private void btn_ReporteInventario_Click(object sender, EventArgs e)
         {
-
+            InterfazReporteInventario reporte = new InterfazReporteInventario();
+            reporte.Show();
+            this.Hide();
         }
 
         private void btn_Ayuda_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         //Metodo para cerrar sesion

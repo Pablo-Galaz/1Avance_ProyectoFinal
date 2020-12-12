@@ -53,13 +53,13 @@
             // 
             this.label_Pregunta.AutoSize = true;
             this.label_Pregunta.BackColor = System.Drawing.Color.SteelBlue;
-            this.label_Pregunta.Font = new System.Drawing.Font("Segoe Print", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Pregunta.Font = new System.Drawing.Font("Segoe Print", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Pregunta.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label_Pregunta.Location = new System.Drawing.Point(125, 31);
+            this.label_Pregunta.Location = new System.Drawing.Point(196, 25);
             this.label_Pregunta.Name = "label_Pregunta";
-            this.label_Pregunta.Size = new System.Drawing.Size(289, 51);
+            this.label_Pregunta.Size = new System.Drawing.Size(122, 62);
             this.label_Pregunta.TabIndex = 1;
-            this.label_Pregunta.Text = "¿Que desea hacer?";
+            this.label_Pregunta.Text = "Menu\r\n";
             // 
             // btn_ReporteVentas
             // 

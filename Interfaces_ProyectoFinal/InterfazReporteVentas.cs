@@ -10,14 +10,11 @@ using System.Windows.Forms;
 
 namespace Interfaces_ProyectoFinal
 {
-    public partial class InterfazReporteInventario : Form
+    public partial class InterfazReporteVentas : Form
     {
-        public InterfazReporteInventario()
+        public InterfazReporteVentas()
         {
             InitializeComponent();
         }
-
-        
-
     }
 }

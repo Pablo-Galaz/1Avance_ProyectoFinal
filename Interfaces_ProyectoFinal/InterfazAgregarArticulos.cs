@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace Interfaces_ProyectoFinal
 {
-    public partial class Interfaz_DeCobro : Form
+    public partial class InterfazAgregarArticulos : Form
     {
-        public Interfaz_DeCobro()
+        public InterfazAgregarArticulos()
         {
             InitializeComponent();
         }
+
     }
 }

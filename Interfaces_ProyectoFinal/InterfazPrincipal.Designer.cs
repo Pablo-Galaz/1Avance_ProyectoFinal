@@ -53,6 +53,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
+            this.Boton_Regresar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Imagen_InterfazPrincipal)).BeginInit();
             this.SuspendLayout();
             // 
@@ -168,7 +169,7 @@
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Britannic Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label1.Location = new System.Drawing.Point(375, 402);
+            this.label1.Location = new System.Drawing.Point(393, 402);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(104, 16);
             this.label1.TabIndex = 9;
@@ -180,7 +181,7 @@
             this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.Font = new System.Drawing.Font("Britannic Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label2.Location = new System.Drawing.Point(391, 454);
+            this.label2.Location = new System.Drawing.Point(427, 451);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 16);
             this.label2.TabIndex = 10;
@@ -192,7 +193,7 @@
             this.label3.BackColor = System.Drawing.Color.Black;
             this.label3.Font = new System.Drawing.Font("Britannic Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label3.Location = new System.Drawing.Point(388, 497);
+            this.label3.Location = new System.Drawing.Point(411, 497);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 16);
             this.label3.TabIndex = 11;
@@ -284,7 +285,7 @@
             this.button7.BackColor = System.Drawing.Color.Black;
             this.button7.Font = new System.Drawing.Font("Franklin Gothic Demi", 12.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.DarkCyan;
-            this.button7.Location = new System.Drawing.Point(26, 451);
+            this.button7.Location = new System.Drawing.Point(-3, 454);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(84, 36);
             this.button7.TabIndex = 23;
@@ -296,7 +297,7 @@
             this.button8.BackColor = System.Drawing.Color.Black;
             this.button8.Font = new System.Drawing.Font("Franklin Gothic Demi", 12.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.DarkCyan;
-            this.button8.Location = new System.Drawing.Point(116, 442);
+            this.button8.Location = new System.Drawing.Point(95, 445);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(84, 54);
             this.button8.TabIndex = 24;
@@ -308,7 +309,7 @@
             this.button9.BackColor = System.Drawing.Color.Black;
             this.button9.Font = new System.Drawing.Font("Franklin Gothic Demi", 12.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.DarkCyan;
-            this.button9.Location = new System.Drawing.Point(209, 442);
+            this.button9.Location = new System.Drawing.Point(197, 445);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(84, 54);
             this.button9.TabIndex = 25;
@@ -320,18 +321,32 @@
             this.button10.BackColor = System.Drawing.Color.Black;
             this.button10.Font = new System.Drawing.Font("Franklin Gothic Demi", 12.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.Color.DarkCyan;
-            this.button10.Location = new System.Drawing.Point(299, 450);
+            this.button10.Location = new System.Drawing.Point(297, 450);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(84, 36);
             this.button10.TabIndex = 26;
             this.button10.Text = "Finalizar";
             this.button10.UseVisualStyleBackColor = false;
             // 
+            // Boton_Regresar
+            // 
+            this.Boton_Regresar.BackColor = System.Drawing.Color.Black;
+            this.Boton_Regresar.Font = new System.Drawing.Font("Franklin Gothic Demi", 12.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Boton_Regresar.ForeColor = System.Drawing.Color.DarkCyan;
+            this.Boton_Regresar.Location = new System.Drawing.Point(562, 0);
+            this.Boton_Regresar.Name = "Boton_Regresar";
+            this.Boton_Regresar.Size = new System.Drawing.Size(95, 36);
+            this.Boton_Regresar.TabIndex = 27;
+            this.Boton_Regresar.Text = "Regresar";
+            this.Boton_Regresar.UseVisualStyleBackColor = false;
+            this.Boton_Regresar.Click += new System.EventHandler(this.Boton_Regresar_Click);
+            // 
             // InterfazPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(656, 522);
+            this.Controls.Add(this.Boton_Regresar);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
@@ -394,5 +409,6 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button Boton_Regresar;
     }
 }

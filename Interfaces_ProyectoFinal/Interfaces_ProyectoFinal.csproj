@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InterfazAgregarArticulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfazAgregarArticulos.Designer.cs">
+      <DependentUpon>InterfazAgregarArticulos.cs</DependentUpon>
+    </Compile>
     <Compile Include="InterfazLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,11 +71,11 @@
     <Compile Include="InterfazReporteInventario.Designer.cs">
       <DependentUpon>InterfazReporteInventario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interfaz_DeCobro.cs">
+    <Compile Include="InterfazReporteVentas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Interfaz_DeCobro.Designer.cs">
-      <DependentUpon>Interfaz_DeCobro.cs</DependentUpon>
+    <Compile Include="InterfazReporteVentas.Designer.cs">
+      <DependentUpon>InterfazReporteVentas.cs</DependentUpon>
     </Compile>
     <Compile Include="Opciones.cs">
       <SubType>Form</SubType>
@@ -78,6 +85,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="InterfazAgregarArticulos.resx">
+      <DependentUpon>InterfazAgregarArticulos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InterfazLogin.resx">
       <DependentUpon>InterfazLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -87,8 +97,8 @@
     <EmbeddedResource Include="InterfazReporteInventario.resx">
       <DependentUpon>InterfazReporteInventario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Interfaz_DeCobro.resx">
-      <DependentUpon>Interfaz_DeCobro.cs</DependentUpon>
+    <EmbeddedResource Include="InterfazReporteVentas.resx">
+      <DependentUpon>InterfazReporteVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Opciones.resx">
       <DependentUpon>Opciones.cs</DependentUpon>
@@ -123,6 +133,8 @@
     <None Include="Resources\diseno-fondo-tecnologico_23-2148503801.jpg" />
     <None Include="Resources\depositphotos_108268286-stock-photo-abstract-dark-metallic-background.jpg" />
     <None Include="Resources\fondo-tecnologia-digital_1319-219.jpg" />
+    <None Include="Resources\c99a4a05ba745e36874c55edfcb758dc.png" />
+    <None Include="Resources\c99a4a05ba745e36874c55edfcb758dc1.png" />
     <Content Include="Resources\login.png" />
     <None Include="Resources\password1.png" />
     <None Include="Resources\login1.png" />
