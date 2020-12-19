@@ -143,8 +143,7 @@ namespace Interfaces_ProyectoFinal
             {
 
                 conexionBaseDatos.Close(); 
-                scL.Dispose();
-                scH.Show();
+                
             }
         }
 
