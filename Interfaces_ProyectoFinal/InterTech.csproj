@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{45FBDE45-1842-4D36-87E4-F7129771FE57}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>InterTech</RootNamespace>
+    <AssemblyName>InterTech</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Herramientas\Calculadora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\Calculadora.Designer.cs">
+      <DependentUpon>Calculadora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Productos\Celulares\Huawei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Productos\Celulares\Huawei.Designer.cs">
+      <DependentUpon>Huawei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Home\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Home\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Productos\Celulares\Celulares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Productos\Celulares\Celulares.Designer.cs">
+      <DependentUpon>Celulares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Inicio\BorrarCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Inicio\BorrarCuenta.Designer.cs">
+      <DependentUpon>BorrarCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\conexion.cs" />
+    <Compile Include="Clases\DatosUsuario.cs" />
+    <Compile Include="Clases\FuncionesUsuarios.cs" />
+    <Compile Include="Interfaces\Agregar Articulos\InterfazAgregarArticulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Agregar Articulos\InterfazAgregarArticulos.Designer.cs">
+      <DependentUpon>InterfazAgregarArticulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Inicio\InterfazLogin.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Inicio\InterfazLogin.Designer.cs">
+      <DependentUpon>InterfazLogin.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Interfaces\Home\InterfazPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Home\InterfazPrincipal.Designer.cs">
+      <DependentUpon>InterfazPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Productos\Laptops\Alienware.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Productos\Laptops\Alienware.Designer.cs">
+      <DependentUpon>Alienware.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Productos\Laptops\HP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Productos\Laptops\HP.Designer.cs">
+      <DependentUpon>HP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Reportes\InterfazReportesInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Reportes\InterfazReportesInventario.Designer.cs">
+      <DependentUpon>InterfazReportesInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Reportes\InterfazReporteVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Reportes\InterfazReporteVentas.Designer.cs">
+      <DependentUpon>InterfazReporteVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Productos\Laptops\Laptops.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Productos\Laptops\Laptops.Designer.cs">
+      <DependentUpon>Laptops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Interfaces\Inicio\Registrarse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Inicio\Registrarse.Designer.cs">
+      <DependentUpon>Registrarse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Inicio\ResetearPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Inicio\ResetearPassword.Designer.cs">
+      <DependentUpon>ResetearPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Inicio\SubInterfaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Inicio\SubInterfaz.Designer.cs">
+      <DependentUpon>SubInterfaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Productos\Celulares\Samsung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Productos\Celulares\Samsung.Designer.cs">
+      <DependentUpon>Samsung.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Herramientas\Calculadora.resx">
+      <DependentUpon>Calculadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Home\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Home\InterfazPrincipal.resx">
+      <DependentUpon>InterfazPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Inicio\BorrarCuenta.resx">
+      <DependentUpon>BorrarCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Agregar Articulos\InterfazAgregarArticulos.resx">
+      <DependentUpon>InterfazAgregarArticulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Inicio\InterfazLogin.resx">
+      <DependentUpon>InterfazLogin.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Productos\Celulares\Celulares.resx">
+      <DependentUpon>Celulares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Productos\Celulares\Huawei.resx">
+      <DependentUpon>Huawei.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Productos\Celulares\Samsung.resx">
+      <DependentUpon>Samsung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Productos\Laptops\HP.resx">
+      <DependentUpon>HP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Productos\Laptops\Laptops.resx">
+      <DependentUpon>Laptops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Reportes\InterfazReportesInventario.resx">
+      <DependentUpon>InterfazReportesInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Reportes\InterfazReporteVentas.resx">
+      <DependentUpon>InterfazReporteVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Inicio\Registrarse.resx">
+      <DependentUpon>Registrarse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Inicio\ResetearPassword.resx">
+      <DependentUpon>ResetearPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Inicio\SubInterfaz.resx">
+      <DependentUpon>SubInterfaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImagenLaptop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diseño IP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoHome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Foto user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Apple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Huawei.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Inter Tech.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Motorola.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Samsung.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImagenCelular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImagenInterTech.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Insertar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo de Intertech.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Galaxy A5 Blanco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Galaxy S10 Plus Azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P20 Negro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y5 Negro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo HP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Alienware.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laptop HP 2000 Azul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laptop HP Pavilion Gaming Laptop,  Negra.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
