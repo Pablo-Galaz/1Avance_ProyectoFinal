@@ -12,7 +12,7 @@ namespace InterTech  {
     public partial class Huawei : Form  {
 
         //Variables Globales
-        string so, resolucion, ram, memoria, procesa, color, signoPeso = "$";
+        string so, resolucion, ram, memoria, procesa, color;
         float tamano, año, precio;
 
         //Codigo para activar el doble buffer
@@ -31,12 +31,10 @@ namespace InterTech  {
         }
 
         //Metodo del Combo Box
-        private void lista_Productos_SelectedIndexChanged(object sender, EventArgs e)
-        {
+        private void lista_Productos_SelectedIndexChanged(object sender, EventArgs e)  {
             int indice = lista_Productos.SelectedIndex;
 
-            if (indice == 1)
-            {
+            if (indice == 0)  {
                 //Caracteristicas e imagen
                 tamano = 5.45f;
                 año = 2019;
@@ -114,10 +112,9 @@ namespace InterTech  {
         private void btn_Comprar_Click(object sender, EventArgs e) {
             //Variables
             int pago = int.Parse(tb_Pago.Text);
-            int precio = int.Parse(tb_Precio.Text);
+            int total = int.Parse(tb_Total.Text);
 
-            if (pago >= precio)
-            {
+            if (pago >= total) {
                 MessageBox.Show("Felicidades, Compra llevada a cabo con exito", "Compra Exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 tb_Pago.Text = "";
                 tb_Cambio.Text = "";
@@ -128,15 +125,14 @@ namespace InterTech  {
                 tb_Precio.Text = "";
                 tb_so.Text = "";
                 tb_Resolucion.Text = "";
-                tb_RAM.Text = ram;
+                tb_RAM.Text = "";
                 tb_Almacenamiento.Text = "";
                 tb_Procesador.Text = "";
                 tb_Color.Text = "";
 
-            }
-            else
-            {
+            } else {
                 MessageBox.Show("Saldo Insuficiente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                tb_Pago.Text = "";
             }
         }
 
@@ -148,11 +144,6 @@ namespace InterTech  {
             int totalpagar = (cantidad * precio);
             tb_Total.Text = totalpagar.ToString();
         }
-
-
-
-
-
 
     }
 }

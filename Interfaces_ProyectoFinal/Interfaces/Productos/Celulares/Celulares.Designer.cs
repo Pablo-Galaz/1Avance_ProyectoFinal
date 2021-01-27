@@ -75,7 +75,7 @@ namespace InterTech
             // btn_Regresar
             // 
             this.btn_Regresar.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_Regresar.Image = global::InterTech.Properties.Resources.Insertar;
+            this.btn_Regresar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Regresar.Image")));
             this.btn_Regresar.Location = new System.Drawing.Point(415, 435);
             this.btn_Regresar.Name = "btn_Regresar";
             this.btn_Regresar.Size = new System.Drawing.Size(61, 64);
@@ -90,7 +90,6 @@ namespace InterTech
             this.btn_Huawei.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Huawei.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Huawei.Font = new System.Drawing.Font("Forte", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Huawei.Image = global::InterTech.Properties.Resources.Logo_Huawei;
             this.btn_Huawei.Location = new System.Drawing.Point(503, 202);
             this.btn_Huawei.Name = "btn_Huawei";
             this.btn_Huawei.Size = new System.Drawing.Size(215, 100);
@@ -106,7 +105,6 @@ namespace InterTech
             this.btn_Samsung.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Samsung.Font = new System.Drawing.Font("Forte", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Samsung.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.btn_Samsung.Image = global::InterTech.Properties.Resources.Logo_Samsung;
             this.btn_Samsung.Location = new System.Drawing.Point(135, 202);
             this.btn_Samsung.Name = "btn_Samsung";
             this.btn_Samsung.Size = new System.Drawing.Size(215, 100);
@@ -118,7 +116,7 @@ namespace InterTech
             // FotoCel3
             // 
             this.FotoCel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.FotoCel3.Image = global::InterTech.Properties.Resources.ImagenCelular;
+            this.FotoCel3.Image = ((System.Drawing.Image)(resources.GetObject("FotoCel3.Image")));
             this.FotoCel3.Location = new System.Drawing.Point(767, 405);
             this.FotoCel3.Name = "FotoCel3";
             this.FotoCel3.Size = new System.Drawing.Size(95, 104);
@@ -129,7 +127,7 @@ namespace InterTech
             // FotoCel2
             // 
             this.FotoCel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.FotoCel2.Image = global::InterTech.Properties.Resources.ImagenCelular;
+            this.FotoCel2.Image = ((System.Drawing.Image)(resources.GetObject("FotoCel2.Image")));
             this.FotoCel2.Location = new System.Drawing.Point(12, 395);
             this.FotoCel2.Name = "FotoCel2";
             this.FotoCel2.Size = new System.Drawing.Size(95, 104);
@@ -140,7 +138,7 @@ namespace InterTech
             // FotoCel1
             // 
             this.FotoCel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.FotoCel1.Image = global::InterTech.Properties.Resources.ImagenCelular;
+            this.FotoCel1.Image = ((System.Drawing.Image)(resources.GetObject("FotoCel1.Image")));
             this.FotoCel1.Location = new System.Drawing.Point(767, 12);
             this.FotoCel1.Name = "FotoCel1";
             this.FotoCel1.Size = new System.Drawing.Size(95, 104);
@@ -151,7 +149,7 @@ namespace InterTech
             // FotoCel
             // 
             this.FotoCel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.FotoCel.Image = global::InterTech.Properties.Resources.ImagenCelular;
+            this.FotoCel.Image = ((System.Drawing.Image)(resources.GetObject("FotoCel.Image")));
             this.FotoCel.Location = new System.Drawing.Point(12, 12);
             this.FotoCel.Name = "FotoCel";
             this.FotoCel.Size = new System.Drawing.Size(95, 104);

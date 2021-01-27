@@ -146,8 +146,7 @@ namespace InterTech.Herramientas  {
                     break;
 
                 case "Division":
-                    if (numero2 == 0)
-                    {
+                    if (numero2 == 0)  {
                         MessageBox.Show("No se puede dividir entre cero");
                         Pantalla.Text = "";
                         break;

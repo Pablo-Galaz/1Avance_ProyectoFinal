@@ -83,6 +83,16 @@ namespace InterTech.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Diseño_IP1 {
+            get {
+                object obj = ResourceManager.GetObject("Diseño IP1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FondoHome {
             get {
                 object obj = ResourceManager.GetObject("FondoHome", resourceCulture);
@@ -123,9 +133,29 @@ namespace InterTech.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Imagen_de_Tablet {
+            get {
+                object obj = ResourceManager.GetObject("Imagen de Tablet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ImagenCelular {
             get {
                 object obj = ResourceManager.GetObject("ImagenCelular", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImagenCelular1 {
+            get {
+                object obj = ResourceManager.GetObject("ImagenCelular1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +203,29 @@ namespace InterTech.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Laptop_Alienware_Area_51M___Negra {
+            get {
+                object obj = ResourceManager.GetObject("Laptop Alienware Area 51M,  Negra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Laptop_HP_2000_Azul {
             get {
                 object obj = ResourceManager.GetObject("Laptop HP 2000 Azul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Laptop_HP_COMHPI970_Negra {
+            get {
+                object obj = ResourceManager.GetObject("Laptop HP COMHPI970 Negra", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

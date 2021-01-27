@@ -48,7 +48,7 @@
             // 
             // ImagenDeFondo
             // 
-            this.ImagenDeFondo.Image = global::InterTech.Properties.Resources.ImagenInterTech;
+            this.ImagenDeFondo.Image = ((System.Drawing.Image)(resources.GetObject("ImagenDeFondo.Image")));
             this.ImagenDeFondo.Location = new System.Drawing.Point(0, 1);
             this.ImagenDeFondo.Name = "ImagenDeFondo";
             this.ImagenDeFondo.Size = new System.Drawing.Size(368, 436);
@@ -83,7 +83,7 @@
             // Foto_NewContra
             // 
             this.Foto_NewContra.BackColor = System.Drawing.Color.SteelBlue;
-            this.Foto_NewContra.Image = global::InterTech.Properties.Resources.Password;
+            this.Foto_NewContra.Image = ((System.Drawing.Image)(resources.GetObject("Foto_NewContra.Image")));
             this.Foto_NewContra.Location = new System.Drawing.Point(51, 253);
             this.Foto_NewContra.Name = "Foto_NewContra";
             this.Foto_NewContra.Size = new System.Drawing.Size(48, 43);
@@ -106,7 +106,7 @@
             // Foto_User
             // 
             this.Foto_User.BackColor = System.Drawing.Color.SteelBlue;
-            this.Foto_User.Image = global::InterTech.Properties.Resources.Foto_user;
+            this.Foto_User.Image = ((System.Drawing.Image)(resources.GetObject("Foto_User.Image")));
             this.Foto_User.Location = new System.Drawing.Point(51, 165);
             this.Foto_User.Name = "Foto_User";
             this.Foto_User.Size = new System.Drawing.Size(48, 43);
@@ -170,7 +170,7 @@
             // Foto_Regresar
             // 
             this.Foto_Regresar.BackColor = System.Drawing.Color.SteelBlue;
-            this.Foto_Regresar.Image = global::InterTech.Properties.Resources.Insertar;
+            this.Foto_Regresar.Image = ((System.Drawing.Image)(resources.GetObject("Foto_Regresar.Image")));
             this.Foto_Regresar.Location = new System.Drawing.Point(321, 12);
             this.Foto_Regresar.Name = "Foto_Regresar";
             this.Foto_Regresar.Size = new System.Drawing.Size(35, 34);

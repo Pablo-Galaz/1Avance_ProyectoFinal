@@ -46,6 +46,7 @@ namespace InterTech  {
             this.Hide();        //Ocultamos este form
             agregar.Show();     //Mostramos la interfaz para agregar articulos
             MessageBox.Show("Bienvenido a la Interfaz para agregar articulos de InterTech", "Bienvenido", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
         }
 
         //Metodo para ir a la Interfaz de reportes de Inventario

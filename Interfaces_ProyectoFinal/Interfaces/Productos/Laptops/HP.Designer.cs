@@ -84,7 +84,8 @@ namespace InterTech.Interfaces.Productos.Laptops
             this.lista_Productos.FormattingEnabled = true;
             this.lista_Productos.Items.AddRange(new object[] {
             "HP 2000",
-            "HP Pavilion Gamer"});
+            "HP Pavilion Gamer",
+            "HP COMHPI970"});
             this.lista_Productos.Location = new System.Drawing.Point(284, 106);
             this.lista_Productos.Name = "lista_Productos";
             this.lista_Productos.Size = new System.Drawing.Size(380, 32);
@@ -272,7 +273,7 @@ namespace InterTech.Interfaces.Productos.Laptops
             this.Lb_Precio.AutoSize = true;
             this.Lb_Precio.Font = new System.Drawing.Font("Gill Sans MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lb_Precio.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Lb_Precio.Location = new System.Drawing.Point(626, 227);
+            this.Lb_Precio.Location = new System.Drawing.Point(630, 231);
             this.Lb_Precio.Name = "Lb_Precio";
             this.Lb_Precio.Size = new System.Drawing.Size(69, 27);
             this.Lb_Precio.TabIndex = 48;
@@ -441,7 +442,7 @@ namespace InterTech.Interfaces.Productos.Laptops
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::InterTech.Properties.Resources.Logo_HP;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(402, 12);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(125, 88);
@@ -452,7 +453,7 @@ namespace InterTech.Interfaces.Productos.Laptops
             // pictureBox3
             // 
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Image = global::InterTech.Properties.Resources.ImagenLaptop;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(835, 1);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(77, 77);
@@ -463,7 +464,7 @@ namespace InterTech.Interfaces.Productos.Laptops
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Image = global::InterTech.Properties.Resources.ImagenLaptop;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(-1, 495);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(77, 77);
@@ -474,7 +475,7 @@ namespace InterTech.Interfaces.Productos.Laptops
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Image = global::InterTech.Properties.Resources.ImagenLaptop;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(835, 495);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(77, 77);
@@ -485,7 +486,7 @@ namespace InterTech.Interfaces.Productos.Laptops
             // FotoLap
             // 
             this.FotoLap.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.FotoLap.Image = global::InterTech.Properties.Resources.ImagenLaptop;
+            this.FotoLap.Image = ((System.Drawing.Image)(resources.GetObject("FotoLap.Image")));
             this.FotoLap.Location = new System.Drawing.Point(-1, 1);
             this.FotoLap.Name = "FotoLap";
             this.FotoLap.Size = new System.Drawing.Size(77, 77);

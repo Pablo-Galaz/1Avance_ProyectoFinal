@@ -441,7 +441,7 @@ namespace InterTech
             // 
             // Foto_Huawei
             // 
-            this.Foto_Huawei.Image = global::InterTech.Properties.Resources.Logo_Huawei;
+            this.Foto_Huawei.Image = ((System.Drawing.Image)(resources.GetObject("Foto_Huawei.Image")));
             this.Foto_Huawei.Location = new System.Drawing.Point(366, 1);
             this.Foto_Huawei.Name = "Foto_Huawei";
             this.Foto_Huawei.Size = new System.Drawing.Size(183, 68);
@@ -452,7 +452,7 @@ namespace InterTech
             // FotoCel3
             // 
             this.FotoCel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.FotoCel3.Image = global::InterTech.Properties.Resources.ImagenCelular;
+            this.FotoCel3.Image = ((System.Drawing.Image)(resources.GetObject("FotoCel3.Image")));
             this.FotoCel3.Location = new System.Drawing.Point(822, 451);
             this.FotoCel3.Name = "FotoCel3";
             this.FotoCel3.Size = new System.Drawing.Size(75, 82);
@@ -463,7 +463,7 @@ namespace InterTech
             // FotoCel2
             // 
             this.FotoCel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.FotoCel2.Image = global::InterTech.Properties.Resources.ImagenCelular;
+            this.FotoCel2.Image = ((System.Drawing.Image)(resources.GetObject("FotoCel2.Image")));
             this.FotoCel2.Location = new System.Drawing.Point(3, 451);
             this.FotoCel2.Name = "FotoCel2";
             this.FotoCel2.Size = new System.Drawing.Size(75, 82);
@@ -474,7 +474,7 @@ namespace InterTech
             // FotoCel1
             // 
             this.FotoCel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.FotoCel1.Image = global::InterTech.Properties.Resources.ImagenCelular;
+            this.FotoCel1.Image = ((System.Drawing.Image)(resources.GetObject("FotoCel1.Image")));
             this.FotoCel1.Location = new System.Drawing.Point(811, 1);
             this.FotoCel1.Name = "FotoCel1";
             this.FotoCel1.Size = new System.Drawing.Size(75, 82);
@@ -485,7 +485,7 @@ namespace InterTech
             // FotoCel
             // 
             this.FotoCel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.FotoCel.Image = global::InterTech.Properties.Resources.ImagenCelular;
+            this.FotoCel.Image = ((System.Drawing.Image)(resources.GetObject("FotoCel.Image")));
             this.FotoCel.Location = new System.Drawing.Point(3, 1);
             this.FotoCel.Name = "FotoCel";
             this.FotoCel.Size = new System.Drawing.Size(75, 82);

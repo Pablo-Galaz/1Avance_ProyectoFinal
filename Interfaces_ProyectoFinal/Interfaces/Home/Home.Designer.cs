@@ -33,8 +33,6 @@ namespace InterTech
             this.Lb_BienvenidaHome = new System.Windows.Forms.Label();
             this.btn_IP = new System.Windows.Forms.Button();
             this.btn_AgregarArticulos = new System.Windows.Forms.Button();
-            this.btn_reportesInventario = new System.Windows.Forms.Button();
-            this.btn_reporteventas = new System.Windows.Forms.Button();
             this.btn_Preguntas = new System.Windows.Forms.Button();
             this.btn_CerrarSesion = new System.Windows.Forms.Button();
             this.ImagenFondoIP = new System.Windows.Forms.PictureBox();
@@ -84,36 +82,6 @@ namespace InterTech
             this.btn_AgregarArticulos.UseVisualStyleBackColor = false;
             this.btn_AgregarArticulos.Click += new System.EventHandler(this.btn_AgregarArticulos_Click);
             // 
-            // btn_reportesInventario
-            // 
-            this.btn_reportesInventario.BackColor = System.Drawing.Color.RoyalBlue;
-            this.btn_reportesInventario.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_reportesInventario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_reportesInventario.Font = new System.Drawing.Font("High Tower Text", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_reportesInventario.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_reportesInventario.Location = new System.Drawing.Point(64, 247);
-            this.btn_reportesInventario.Name = "btn_reportesInventario";
-            this.btn_reportesInventario.Size = new System.Drawing.Size(205, 76);
-            this.btn_reportesInventario.TabIndex = 4;
-            this.btn_reportesInventario.Text = "Reportes Inventario";
-            this.btn_reportesInventario.UseVisualStyleBackColor = false;
-            this.btn_reportesInventario.Click += new System.EventHandler(this.btn_reportesInventario_Click);
-            // 
-            // btn_reporteventas
-            // 
-            this.btn_reporteventas.BackColor = System.Drawing.Color.RoyalBlue;
-            this.btn_reporteventas.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_reporteventas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_reporteventas.Font = new System.Drawing.Font("High Tower Text", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_reporteventas.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_reporteventas.Location = new System.Drawing.Point(523, 247);
-            this.btn_reporteventas.Name = "btn_reporteventas";
-            this.btn_reporteventas.Size = new System.Drawing.Size(205, 76);
-            this.btn_reporteventas.TabIndex = 5;
-            this.btn_reporteventas.Text = "Reporte de Ventas";
-            this.btn_reporteventas.UseVisualStyleBackColor = false;
-            this.btn_reporteventas.Click += new System.EventHandler(this.btn_reporteventas_Click);
-            // 
             // btn_Preguntas
             // 
             this.btn_Preguntas.BackColor = System.Drawing.Color.RoyalBlue;
@@ -121,7 +89,7 @@ namespace InterTech
             this.btn_Preguntas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Preguntas.Font = new System.Drawing.Font("High Tower Text", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Preguntas.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Preguntas.Location = new System.Drawing.Point(64, 409);
+            this.btn_Preguntas.Location = new System.Drawing.Point(64, 278);
             this.btn_Preguntas.Name = "btn_Preguntas";
             this.btn_Preguntas.Size = new System.Drawing.Size(205, 76);
             this.btn_Preguntas.TabIndex = 6;
@@ -136,7 +104,7 @@ namespace InterTech
             this.btn_CerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_CerrarSesion.Font = new System.Drawing.Font("High Tower Text", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_CerrarSesion.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_CerrarSesion.Location = new System.Drawing.Point(523, 409);
+            this.btn_CerrarSesion.Location = new System.Drawing.Point(523, 296);
             this.btn_CerrarSesion.Name = "btn_CerrarSesion";
             this.btn_CerrarSesion.Size = new System.Drawing.Size(205, 76);
             this.btn_CerrarSesion.TabIndex = 7;
@@ -146,7 +114,7 @@ namespace InterTech
             // 
             // ImagenFondoIP
             // 
-            this.ImagenFondoIP.Image = global::InterTech.Properties.Resources.FondoHome;
+            this.ImagenFondoIP.Image = ((System.Drawing.Image)(resources.GetObject("ImagenFondoIP.Image")));
             this.ImagenFondoIP.Location = new System.Drawing.Point(-2, 0);
             this.ImagenFondoIP.Name = "ImagenFondoIP";
             this.ImagenFondoIP.Size = new System.Drawing.Size(789, 516);
@@ -161,8 +129,6 @@ namespace InterTech
             this.ClientSize = new System.Drawing.Size(789, 516);
             this.Controls.Add(this.btn_CerrarSesion);
             this.Controls.Add(this.btn_Preguntas);
-            this.Controls.Add(this.btn_reporteventas);
-            this.Controls.Add(this.btn_reportesInventario);
             this.Controls.Add(this.btn_AgregarArticulos);
             this.Controls.Add(this.btn_IP);
             this.Controls.Add(this.Lb_BienvenidaHome);
@@ -184,8 +150,6 @@ namespace InterTech
         private System.Windows.Forms.Label Lb_BienvenidaHome;
         private System.Windows.Forms.Button btn_IP;
         private System.Windows.Forms.Button btn_AgregarArticulos;
-        private System.Windows.Forms.Button btn_reportesInventario;
-        private System.Windows.Forms.Button btn_reporteventas;
         private System.Windows.Forms.Button btn_Preguntas;
         private System.Windows.Forms.Button btn_CerrarSesion;
     }

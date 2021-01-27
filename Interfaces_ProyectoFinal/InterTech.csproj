@@ -120,11 +120,6 @@
     <Compile Include="Interfaces\Productos\Laptops\HP.Designer.cs">
       <DependentUpon>HP.cs</DependentUpon>
     </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Interfaces\Reportes\InterfazReportesInventario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +192,9 @@
     <EmbeddedResource Include="Interfaces\Productos\Celulares\Samsung.resx">
       <DependentUpon>Samsung.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Productos\Laptops\Alienware.resx">
+      <DependentUpon>Alienware.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\Productos\Laptops\HP.resx">
       <DependentUpon>HP.cs</DependentUpon>
     </EmbeddedResource>
@@ -227,6 +225,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -310,6 +313,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Laptop HP Pavilion Gaming Laptop,  Negra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laptop Alienware Area 51M,  Negra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laptop HP COMHPI970 Negra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen de Tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImagenCelular1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen Tablet.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

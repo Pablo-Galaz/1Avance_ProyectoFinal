@@ -12,7 +12,7 @@ namespace InterTech  {
     public partial class Samsung : Form {
 
         //Variables Globales
-        string so, resolucion, ram, memoria, procesa, color, signoPeso = "$";
+        string so, resolucion, ram, memoria, procesa, color;
         float tamano, año, precio;
         
         //Codigo para activar el doble buffer
@@ -94,6 +94,7 @@ namespace InterTech  {
                 tb_Cambio.Text = cambio.ToString();
             } else {
                 MessageBox.Show("El saldo no puede ser negativo", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                tb_Pago.Text = "";
             }
                      
         }
@@ -121,9 +122,9 @@ namespace InterTech  {
         private void btn_Comprar_Click(object sender, EventArgs e) {
             //Variables
             int pago = int.Parse(tb_Pago.Text);
-            int precio = int.Parse(tb_Precio.Text);
+            int total = int.Parse(tb_Total.Text);
 
-            if (pago >= precio) {
+            if (pago >= total) {
                 MessageBox.Show("Felicidades, Compra llevada a cabo con exito", "Compra Exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 tb_Pago.Text = "";
                 tb_Cambio.Text = "";

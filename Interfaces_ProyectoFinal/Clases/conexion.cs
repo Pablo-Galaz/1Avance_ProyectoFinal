@@ -13,6 +13,7 @@ namespace Interfaces_ProyectoFinal {
         public static MySqlConnection obteniendoConexion() {
             //Conexion a la base de datos 
             MySqlConnection conexion = new MySqlConnection("server=localhost; database=intertech;Uid=root;pwd=PabloG2017");
+            conexion.Open();
             return conexion;
         }
 

@@ -138,7 +138,6 @@ namespace Interfaces_ProyectoFinal  {
 
             //Llamar y abrir la conexion con la base de datos
             MySqlConnection conexionBd = conexion.obteniendoConexion();
-            conexionBd.Open();
 
             //Comando 
             MySqlCommand codigo = new MySqlCommand();

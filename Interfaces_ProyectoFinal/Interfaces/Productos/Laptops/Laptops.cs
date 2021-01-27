@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Interfaces_ProyectoFinal  {
-    public partial class Laptops : Form  {
+    public partial class Laptops : Form {
 
         //Codigo para activar el doble buffer
         protected override CreateParams CreateParams {
@@ -23,12 +23,13 @@ namespace Interfaces_ProyectoFinal  {
         }
 
         //Metodo Constructor
-        public Laptops(){
+        public Laptops() {
             InitializeComponent();
         }
 
         //Metodo para ir al form de HP
         private void btn_HP_Click(object sender, EventArgs e) {
+            //Objetos
             HP hp = new HP();
 
             this.Hide();    //Ocultamos este form
@@ -36,6 +37,15 @@ namespace Interfaces_ProyectoFinal  {
             MessageBox.Show("Bienvenido a la Interfaz de HP", "Bienvenido", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        //Metodo para ir al form de Alienware
+        private void btn_Alienware_Click(object sender, EventArgs e) {
+            //Objetos
+            Alienware alien = new Alienware();
+
+            this.Hide();    //Ocultamos este form
+            alien.Show();      //Mostramos la Interfaz de Alienware
+            MessageBox.Show("Bienvenido a la Interfaz de Alienware", "Bienvenido", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
 
     }
 }

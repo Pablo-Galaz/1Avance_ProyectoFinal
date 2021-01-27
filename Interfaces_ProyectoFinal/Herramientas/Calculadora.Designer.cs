@@ -53,13 +53,13 @@ namespace InterTech.Herramientas
             // 
             this.Pantalla.BackColor = System.Drawing.SystemColors.Info;
             this.Pantalla.Enabled = false;
-            this.Pantalla.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pantalla.Font = new System.Drawing.Font("Rockwell", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Pantalla.Location = new System.Drawing.Point(21, 12);
             this.Pantalla.Multiline = true;
             this.Pantalla.Name = "Pantalla";
             this.Pantalla.Size = new System.Drawing.Size(540, 117);
             this.Pantalla.TabIndex = 1;
-            this.Pantalla.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Pantalla.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Suma
             // 
@@ -276,7 +276,7 @@ namespace InterTech.Herramientas
             this.Controls.Add(this.Numero2);
             this.Controls.Add(this.Numero1);
             this.Controls.Add(this.Pantalla);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Calculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

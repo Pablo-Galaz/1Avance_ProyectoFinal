@@ -30,24 +30,25 @@ namespace InterTech
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InterfazPrincipal));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.FondoIP = new System.Windows.Forms.PictureBox();
             this.Lb_BienvenidaIP = new System.Windows.Forms.Label();
             this.btn_Celulares = new System.Windows.Forms.Button();
             this.BTN_Laptops = new System.Windows.Forms.Button();
             this.btn_Regresar = new System.Windows.Forms.Button();
             this.btn_Calculadora = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FondoIP)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // FondoIP
             // 
-            this.pictureBox1.Image = global::InterTech.Properties.Resources.Diseño_IP;
-            this.pictureBox1.Location = new System.Drawing.Point(1, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(802, 535);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.FondoIP.BackColor = System.Drawing.Color.Transparent;
+            this.FondoIP.Image = ((System.Drawing.Image)(resources.GetObject("FondoIP.Image")));
+            this.FondoIP.Location = new System.Drawing.Point(1, 2);
+            this.FondoIP.Name = "FondoIP";
+            this.FondoIP.Size = new System.Drawing.Size(802, 535);
+            this.FondoIP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.FondoIP.TabIndex = 0;
+            this.FondoIP.TabStop = false;
             // 
             // Lb_BienvenidaIP
             // 
@@ -99,7 +100,7 @@ namespace InterTech
             this.btn_Regresar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Regresar.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Regresar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_Regresar.Location = new System.Drawing.Point(497, 301);
+            this.btn_Regresar.Location = new System.Drawing.Point(497, 300);
             this.btn_Regresar.Name = "btn_Regresar";
             this.btn_Regresar.Size = new System.Drawing.Size(222, 86);
             this.btn_Regresar.TabIndex = 6;
@@ -113,7 +114,7 @@ namespace InterTech
             this.btn_Calculadora.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Calculadora.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Calculadora.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_Calculadora.Location = new System.Drawing.Point(63, 301);
+            this.btn_Calculadora.Location = new System.Drawing.Point(63, 300);
             this.btn_Calculadora.Name = "btn_Calculadora";
             this.btn_Calculadora.Size = new System.Drawing.Size(222, 86);
             this.btn_Calculadora.TabIndex = 7;
@@ -126,19 +127,19 @@ namespace InterTech
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(808, 535);
+            this.ClientSize = new System.Drawing.Size(805, 535);
             this.Controls.Add(this.btn_Calculadora);
             this.Controls.Add(this.btn_Regresar);
             this.Controls.Add(this.BTN_Laptops);
             this.Controls.Add(this.btn_Celulares);
             this.Controls.Add(this.Lb_BienvenidaIP);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.FondoIP);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "InterfazPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "InterfazPrincipal";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FondoIP)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -146,7 +147,7 @@ namespace InterTech
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox FondoIP;
         private System.Windows.Forms.Label Lb_BienvenidaIP;
         private System.Windows.Forms.Button btn_Celulares;
         private System.Windows.Forms.Button BTN_Laptops;

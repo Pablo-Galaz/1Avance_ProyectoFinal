@@ -1,4 +1,5 @@
 ﻿using System;
+using InterTech.Properties;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +13,7 @@ namespace InterTech.Interfaces.Productos.Laptops {
     public partial class HP : Form {
 
         //Variables Globales
-        string so, resolucion, ram, memoria, procesa, color, signoPeso = "$";
+        string so, resolucion, ram, memoria, procesa, color;
         float tamano, año, precio;
 
         //Codigo para activar el doble buffer
@@ -26,8 +27,7 @@ namespace InterTech.Interfaces.Productos.Laptops {
         }
 
         //Metodo Constructor
-        public HP()
-        {
+        public HP()  {
             InitializeComponent();
         }
         
@@ -98,13 +98,11 @@ namespace InterTech.Interfaces.Productos.Laptops {
 
 
         //Metodo del Combo Box
-        private void lista_Productos_SelectedIndexChanged(object sender, EventArgs e)
-        {
+        private void lista_Productos_SelectedIndexChanged(object sender, EventArgs e)  {
             //Variable local
             int indice = lista_Productos.SelectedIndex;
 
-            if (indice == 1)
-            {
+            if (indice == 0) {
                 //Caracteristicas e imagen
                 tamano = 15.6f;
                 año = 2013;
@@ -127,9 +125,8 @@ namespace InterTech.Interfaces.Productos.Laptops {
                 Imagen.Image = Properties.Resources.Laptop_HP_2000_Azul;
                 Imagen.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            }
-            else
-            {
+            }  else if (indice == 1)  {
+
                 //Caracteristicas e imagen
                 tamano = 16;
                 año = 2018;
@@ -137,6 +134,7 @@ namespace InterTech.Interfaces.Productos.Laptops {
                 so = "Windows 10";
                 resolucion = "Ultra HD 4K";
                 ram = "8 GB";
+                memoria = "1 Tb";
                 procesa = "Intel Core i5";
                 color = "Negra";
                 tb_TamañoPantalla.Text = tamano.ToString();
@@ -150,8 +148,36 @@ namespace InterTech.Interfaces.Productos.Laptops {
                 tb_Color.Text = color;
                 Imagen.Image = Properties.Resources.Laptop_HP_Pavilion_Gaming_Laptop___Negra;
                 Imagen.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            } else  {
+
+                //Caracteristicas e imagen
+                tamano = 14;
+                año = 2017;
+                precio = 8500;
+                so = "Windows 10 Home";
+                resolucion = "1280x720";
+                ram = "4 GB";
+                memoria = "500 GB";
+                procesa = "Intel Celeron";
+                color = "Negra";
+                tb_TamañoPantalla.Text = tamano.ToString();
+                tb_Año.Text = año.ToString();
+                tb_Precio.Text = precio.ToString();
+                tb_so.Text = so;
+                tb_Resolucion.Text = resolucion;
+                tb_RAM.Text = ram;
+                tb_Almacenamiento.Text = memoria;
+                tb_Procesador.Text = procesa;
+                tb_Color.Text = color;
+                Imagen.Image = Properties.Resources.Laptop_HP_COMHPI970_Negra;
+                Imagen.SizeMode = PictureBoxSizeMode.StretchImage;
+
             }
+
+
         }
+
 
     }
 }

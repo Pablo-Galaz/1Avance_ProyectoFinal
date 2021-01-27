@@ -118,79 +118,94 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ImagenCelular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ImagenCelular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Laptop Alienware Area 51M,  Negra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Laptop Alienware Area 51M,  Negra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo HP" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo HP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logo Inter Tech" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo Inter Tech.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="password2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\password2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo Samsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo Samsung.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Information" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Insertar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Insertar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Password" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Y5 Negro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Y5 Negro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImagenInterTech" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ImagenInterTech.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Foto user" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Foto user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImagenLaptop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ImagenLaptop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo Motorola" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo Motorola.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="P20 Negro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\P20 Negro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Galaxy A5 Blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Galaxy A5 Blanco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo_Alienware" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo_Alienware.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo Apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo Apple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo Huawei" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo Huawei.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Diseño IP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diseño IP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Laptop HP COMHPI970 Negra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Laptop HP COMHPI970 Negra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FondoHome" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FondoHome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Laptop HP 2000 Azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Laptop HP 2000 Azul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo Huawei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo Huawei.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo Inter Tech" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo Inter Tech.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo Apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo Apple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P20 Negro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P20 Negro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImagenInterTech" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImagenInterTech.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galaxy A5 Blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Galaxy A5 Blanco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo_Alienware" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo_Alienware.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Insertar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Insertar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Galaxy S10 Plus Azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Galaxy S10 Plus Azul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Imagen de Tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagen de Tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo Samsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo Samsung.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Foto user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Foto user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="password2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\password2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImagenLaptop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImagenLaptop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo Motorola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo Motorola.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Y5 Negro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Y5 Negro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Laptop HP Pavilion Gaming Laptop,  Negra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Laptop HP Pavilion Gaming Laptop,  Negra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diseño IP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño IP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo de Intertech" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo de Intertech.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Laptop HP 2000 Azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Laptop HP 2000 Azul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Diseño IP1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño IP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Laptop HP Pavilion Gaming Laptop,  Negra" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Laptop HP Pavilion Gaming Laptop,  Negra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Information" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImagenCelular1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImagenCelular1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -37,7 +37,7 @@
             // 
             this.logo_intertech.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.logo_intertech.Enabled = false;
-            this.logo_intertech.Image = global::InterTech.Properties.Resources.Logo_Inter_Tech;
+            this.logo_intertech.Image = ((System.Drawing.Image)(resources.GetObject("logo_intertech.Image")));
             this.logo_intertech.Location = new System.Drawing.Point(1, 2);
             this.logo_intertech.Name = "logo_intertech";
             this.logo_intertech.Size = new System.Drawing.Size(246, 200);

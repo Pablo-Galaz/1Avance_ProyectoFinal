@@ -138,7 +138,7 @@
             // Foto_Regresar
             // 
             this.Foto_Regresar.BackColor = System.Drawing.Color.SteelBlue;
-            this.Foto_Regresar.Image = global::InterTech.Properties.Resources.Insertar;
+            this.Foto_Regresar.Image = ((System.Drawing.Image)(resources.GetObject("Foto_Regresar.Image")));
             this.Foto_Regresar.Location = new System.Drawing.Point(321, 13);
             this.Foto_Regresar.Name = "Foto_Regresar";
             this.Foto_Regresar.Size = new System.Drawing.Size(35, 34);
@@ -150,7 +150,7 @@
             // Imagen_Candado
             // 
             this.Imagen_Candado.BackColor = System.Drawing.Color.SteelBlue;
-            this.Imagen_Candado.Image = global::InterTech.Properties.Resources.password2;
+            this.Imagen_Candado.Image = ((System.Drawing.Image)(resources.GetObject("Imagen_Candado.Image")));
             this.Imagen_Candado.Location = new System.Drawing.Point(56, 265);
             this.Imagen_Candado.Name = "Imagen_Candado";
             this.Imagen_Candado.Size = new System.Drawing.Size(48, 43);
@@ -161,7 +161,7 @@
             // Foto_User
             // 
             this.Foto_User.BackColor = System.Drawing.Color.SteelBlue;
-            this.Foto_User.Image = global::InterTech.Properties.Resources.Foto_user;
+            this.Foto_User.Image = ((System.Drawing.Image)(resources.GetObject("Foto_User.Image")));
             this.Foto_User.Location = new System.Drawing.Point(56, 169);
             this.Foto_User.Name = "Foto_User";
             this.Foto_User.Size = new System.Drawing.Size(48, 43);
@@ -171,7 +171,7 @@
             // 
             // ImagenDeFondo
             // 
-            this.ImagenDeFondo.Image = global::InterTech.Properties.Resources.ImagenInterTech;
+            this.ImagenDeFondo.Image = ((System.Drawing.Image)(resources.GetObject("ImagenDeFondo.Image")));
             this.ImagenDeFondo.Location = new System.Drawing.Point(1, 1);
             this.ImagenDeFondo.Name = "ImagenDeFondo";
             this.ImagenDeFondo.Size = new System.Drawing.Size(367, 435);
